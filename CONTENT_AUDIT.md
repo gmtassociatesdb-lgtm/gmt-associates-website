@@ -29,3 +29,12 @@
 - Many Drive project folders use HEIC/HEIF. Convert those to WebP/JPEG before future website use.
 - Faropoint's `3 Pearl before/during/After` folder is an excellent future before/after-slider candidate.
 - 2301 Cherry contains a deep photo archive but is HEIC-heavy.
+
+## V4.4 public-content refinement
+- Public-facing audit/verification language removed from homepage and Projects page; verification remains an internal editorial standard.
+- Team hierarchy split into Ownership & Leadership and Project Management & Operations.
+- Mary Buchnik bio narrowed to payroll administration and financial support.
+- Daniel Buchnik and Moshe Buchnik bios refined to their documented operational roles.
+- Contact hierarchy separates office/new projects/estimating from direct leadership contacts.
+- Structural self-perform language narrowed to avoid over-specific public claims.
+- Named project photography remains restricted to exact project-source imagery.

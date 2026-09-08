@@ -42,3 +42,5 @@ Keep the GitHub Pages preview in place until desktop and mobile QA is complete. 
 
 ## V4.3 Photography standard
 Public marketing imagery is separated from routine project documentation. Sideways/rotated detail shots, door/hardware photos, punch-list imagery, blurry close-ups, and unverified project images have been removed from the website package. Named-project images must trace to that project source folder.
+
+V4.4: Content & Hierarchy Refinement. Upload the contents of this folder to the GitHub Pages repository root.

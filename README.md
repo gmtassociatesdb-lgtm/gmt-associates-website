@@ -7,3 +7,7 @@ Upload the contents of this folder to the existing website repository root, repl
 Suggested commit: V4.7.3 – Correct leadership, project copy, navigation and photo presentation
 
 See CONTENT_AUDIT.md for completed checks and unresolved factual items.
+
+## September 8 client-flow update
+
+The repository now includes revised inquiry and D-BAT planning flows, clearer mobile access, and portfolio/copy refinements. See WEBSITE_FOLLOW_UP.md for implemented changes, validation and remaining domain, form-delivery and content inputs. The site remains static and uses its existing GitHub Pages publishing process.

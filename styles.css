@@ -124,3 +124,27 @@
 @media print{.project-card.feature,.project-card.tall,.project-card.third{grid-column:auto!important}.project-copy{position:static!important}.project-card img{height:230px}}
 .hero,.page-hero.photo{background-image:linear-gradient(90deg,rgba(3,12,23,.92),rgba(3,12,23,.45)),url('assets/projects/hamilton/20260908_081912.jpg');background-size:100% 100%,contain;background-position:center;background-repeat:no-repeat}
 .photo-main,.safety-photo{background-image:url('assets/projects/center-square/20260512_100836.jpg');background-size:contain;background-position:center;background-repeat:no-repeat}
+
+/* Client inquiry and portfolio refinements. Preserve full approved photographs. */
+.hero-region{font-size:1rem;color:#d8e8f5;margin-top:12px}
+.hero:before{background:linear-gradient(90deg,rgba(3,12,23,.9),rgba(3,12,23,.6) 65%,rgba(3,12,23,.18))}
+.hero,.page-hero.photo{background-image:url('assets/projects/hamilton/20260908_081912.jpg');background-size:contain;background-repeat:no-repeat}
+.page-hero.photo:before{background:linear-gradient(90deg,rgba(3,12,23,.85),rgba(3,12,23,.4))}
+.contact-hero{min-height:380px}.contact-hero .container{padding-top:48px;padding-bottom:48px}
+.contact-grid h2,.section>.container>h2{margin-top:20px}
+.contact-grid .lead{margin-top:22px}.next-steps{margin:30px 0}.next-steps h3{font-size:1.5rem}
+.next-steps ol{padding-left:24px;margin:20px 0}.next-steps li{padding:0 0 18px 8px;color:#4b586d}.next-steps li strong{color:var(--ink)}
+.form label{font-size:.875rem;letter-spacing:.05em}.form-help{background:#fff;border-left:3px solid var(--blue);padding:18px;line-height:1.6}
+.form-note{font-size:.875rem;color:#4b586d;margin:14px 0}.form-note a{text-decoration:underline;text-underline-offset:3px}
+.form input,.form select,.form textarea{font:inherit;font-size:1rem;min-width:0;width:100%}
+.form select{min-height:54px}.inquiry-actions{display:flex;flex-wrap:wrap;gap:12px}.btn-secondary{background:white;color:var(--navy);cursor:pointer}.btn-secondary:hover{background:#e8f0f8}
+.form button{cursor:pointer}.form [hidden]{display:none!important}
+#inquiry-status:not(:empty){border-left:3px solid var(--blue);padding:16px;background:#fff;margin-top:20px}
+#inquiry-draft{min-height:300px;font-weight:400;line-height:1.6;text-transform:none;letter-spacing:normal}
+.case-meta-grid.has-status{grid-template-columns:.7fr 1.2fr 1fr 1fr}
+.portrait-gallery{align-items:start}.portrait-gallery img{height:auto;max-height:none;background:transparent}
+.case-meta-grid span,.contact-route span,.team-role{font-size:.75rem}
+@media(max-width:1020px){.case-meta-grid.has-status{grid-template-columns:1fr}.contact-grid{gap:32px}}
+@media(max-width:640px){.section{padding:56px 0}.hero-content{padding-top:48px}.hero-foot{margin-top:30px}.contact-hero h1{font-size:clamp(2.5rem,11vw,3.4rem)}.contact-hero .hero-actions{gap:12px}.contact-hero .btn{width:100%;padding:12px}.inquiry-actions{flex-direction:column}.inquiry-actions .btn{width:100%;padding:12px}.form-help{padding:16px}.case-hero h1{font-size:clamp(2.5rem,11vw,4rem)}.case-hero{min-height:0}.case-hero-inner{padding:48px 0}.next-steps{margin:24px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
+@media print{.hero-region{color:inherit}.inquiry-actions{display:none}}

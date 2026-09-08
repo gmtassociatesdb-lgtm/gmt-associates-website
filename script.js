@@ -82,10 +82,19 @@ const slideshow = document.querySelector('.hero-slideshow');
 if (slideshow) {
  const photos = ['irwin-interior-09.jpg', 'irwin-interior-24.jpg', 'irwin-aerial-0022.jpg'];
  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
- let slide = 0, rotation = null, ready = false;
+ let slide = 0, rotation = null, ready = false, paused = false;
+ const control = document.querySelector('.slideshow-control');
+ function updateControl() {
+  if (!control) return;
+  control.hidden = !ready || motion.matches;
+  control.textContent = paused ? 'Resume background rotation' : 'Pause background rotation';
+  control.setAttribute('aria-pressed', String(paused));
+ }
+ if (control) control.addEventListener('click', () => { paused = !paused; scheduleRotation(); });
  function scheduleRotation() {
   clearInterval(rotation);
-  if (!ready || motion.matches || document.hidden) return;
+  updateControl();
+  if (!ready || paused || motion.matches || document.hidden) return;
   rotation = setInterval(() => {
    slide = (slide + 1) % photos.length;
    slideshow.style.backgroundImage = 'url("' + photos[slide] + '")';

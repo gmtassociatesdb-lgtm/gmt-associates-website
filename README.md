@@ -43,4 +43,19 @@ Keep the GitHub Pages preview in place until desktop and mobile QA is complete. 
 ## V4.3 Photography standard
 Public marketing imagery is separated from routine project documentation. Sideways/rotated detail shots, door/hardware photos, punch-list imagery, blurry close-ups, and unverified project images have been removed from the website package. Named-project images must trace to that project source folder.
 
-V4.4: Content & Hierarchy Refinement. Upload the contents of this folder to the GitHub Pages repository root.
+V4.5: Content & Hierarchy Refinement. Upload the contents of this folder to the GitHub Pages repository root.
+
+## V4.5 QA update
+- Cross-source correction of selected past project experience.
+- Eddie V's corrected to Cherry Hill, NJ.
+- Northern Grill / Terra Grill added as confirmed completed Philadelphia experience.
+- Public experience list reduced where project-level corroboration was not strong enough for this release.
+- About-page typography rebalanced.
+- Print/PDF-specific CSS added to prevent sticky-header overlap, hidden reveal content, oversized viewport sections, and excess blank pages.
+
+
+## V4.6 update
+- Added Matt Provo as Director of D-BAT Development & Operations in Leadership.
+- Expanded verified field photography using Hamilton Phase II source-folder images.
+- Replaced Hamilton placeholder cards with project photography.
+- Added field galleries to Home, Projects, and Hamilton case study.

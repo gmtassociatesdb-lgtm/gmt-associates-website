@@ -30,7 +30,7 @@
 - Faropoint's `3 Pearl before/during/After` folder is an excellent future before/after-slider candidate.
 - 2301 Cherry contains a deep photo archive but is HEIC-heavy.
 
-## V4.4 public-content refinement
+## V4.5 public-content refinement
 - Public-facing audit/verification language removed from homepage and Projects page; verification remains an internal editorial standard.
 - Team hierarchy split into Ownership & Leadership and Project Management & Operations.
 - Mary Buchnik bio narrowed to payroll administration and financial support.
@@ -38,3 +38,15 @@
 - Contact hierarchy separates office/new projects/estimating from direct leadership contacts.
 - Structural self-perform language narrowed to avoid over-specific public claims.
 - Named project photography remains restricted to exact project-source imagery.
+
+## V4.5 cross-source reconciliation — 2026-09-08
+
+Public selected past experience was tightened after cross-checking the current website exports, 2026 corporate brochure, connected Gmail history, and project records. The public list now favors entries with stronger independent execution evidence and corrects Eddie V's to Cherry Hill, NJ. Cloud Kitchens, Aldi, Steak 48, Spread Bagelry, BluePearl, and current unawarded D-BAT pursuits are not presented in the selected-past-experience grid in this release pending stronger project-level corroboration for public use.
+
+Confirmed historic examples retained in the public selected experience grid include Brooklyn Bowl (Philadelphia), Northern Grill / Terra Grill (Philadelphia), Eddie V's (Cherry Hill), Nifty Fifty (Abington), Del Val Food Ingredients (Moorestown), and Faropoint multi-location property experience.
+
+Print/export QA was also added so sticky navigation, reveal animations, viewport-height heroes, and interactive controls do not create overlapping or blank browser-print pages.
+
+
+## V4.6 leadership and photography
+Matt Provo added as Director of D-BAT Development & Operations based on owner direction. Additional Hamilton images sourced from the HAMILTON PHASE 2 SITE PHOTOS Drive folder dated 9/4/26. Photography remains project-specific where a project name is displayed.

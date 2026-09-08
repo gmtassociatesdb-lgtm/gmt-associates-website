@@ -1,48 +1,30 @@
-# GMT Website Content Audit
+# V4.7.3 correction record
 
-## Source-backed for public-facing draft
-- GMT operates as a General Contractor and self-perform trade contractor.
-- Self-perform capabilities: demolition, carpentry, concrete, structural work.
-- Documented project experience includes Brooklyn Bowl, Cloud Kitchens, Aldi, D-BAT, Faropoint Properties, Eddie V's, Steak 48, Spread Bagel, Ciocca, BluePearl Veterinary Hospital, Del Val Food Ingredients, Amada, GY Properties, Nifty Fifty, and an Allendale warehouse project.
-- Active current relationship/project correspondence exists with M. Wilkinson Construction (Hamilton Phase II).
-- Current LOTT correspondence documents estimating/bid relationships; do not imply every LOTT opportunity was awarded.
-- Current Faropoint folders and VendorCafe correspondence document a substantial multi-location business relationship.
-- Current Drive includes licenses, insurance, COIs, project contracts, drawings, and field-photo archives.
+Completed:
+- Updated team.html with the complete seven-person leadership roster, including Matt Provo. Added leadership.html redirect and corrected social title.
+- Labeled D-BAT leadership as current program leadership to avoid asserting Matt's historical project involvement.
+- Removed public approval/orientation policy text and repetitive gallery descriptions.
+- Rewrote case-study introductions and work summaries around the existing documented scopes; softened issue-log wording on Hamilton.
+- Corrected homepage Bishops Gate name/location and link; active/completed introduction; standardized Center Square Road and Nifty Fifty’s names.
+- Kept Nifty Fifty’s exterior thumbnail and moved the finished interior to gallery lead, followed by demolition/build-back/exterior. Added phase captions.
+- Removed unverified exterior-construction scope claim from Nifty Fifty’s.
+- Added service anchors, current-page markers, skip link, menu state/Escape support, and direct Contact form anchor.
+- Clarified email-app behavior; all eight inquiry fields, recipient and encoding tested. No message was sent. No backend or new email address was introduced.
+- Changed cards to full-image presentation without hover scaling; two-column leadership/card layouts and mobile single-column rules.
+- Replaced unverified legacy warehouse backgrounds with approved Hamilton/Center Square references, using contain sizing. Legacy assets remain unchanged but are overridden by final CSS rules.
 
-## Use cautiously / verify before final public launch
-- "Over four decades of expertise" appears in the corporate brochure; confirm whether this is collective team experience or company history before turning it into a company-age claim.
-- Dollar values in the brochure were intentionally omitted from this website draft; publish only if GMT wants them public and the client permits it.
-- Do not label Turner Construction as a client based only on the brochure's "Why GMT for Turner" marketing pitch.
-- New Age Development Group is listed as a trusted partner and has historic bid correspondence; do not invent completed-project claims.
-- Exact public office city is inconsistent across sources (Feasterville vs Trevose). V2 uses the more recent email-signature form: Trevose, PA 19053.
-- Current corporate brochure uses 215-687-3771 and gmtdemo2@gmail.com. Replace with domain email once created.
+Validation:
+- HTML tag nesting and all local HTML/CSS file references and anchors pass.
+- Gallery counts: Hamilton 3, Center Square 3, Bishops Gate 3, Faropoint 3, D-BAT 4, Del Val 10, Nifty Fifty’s 7.
+- All copied asset bytes match V4.7.2 exactly.
+- JavaScript syntax and inquiry payload checks pass.
+- Inspected photo contact sheet: D-BAT subjects match intended set; Nifty Fifty’s interior/exterior identities confirmed; Del Val lead shows completed panel interior.
 
-## Never publish from reviewed sources
-- P&L, balance sheets, internal budgets, margins, expenses, SBA/bank materials, bank limits, payment discussions.
-- Legal settlement/dispute correspondence.
-- Internal-only owner/lender packets or confidential client budgets.
-- Subcontractor pricing and vendor commercial terms.
-- Insurance policy limits unless intentionally approved for public use.
+Still requires project records or deployed verification:
+- Faropoint / 3 Pearl Court municipality/state and detailed contracted scope. No location invented.
+- Current Active/Completed statuses and independent verification of corporate/contact facts. Existing approved baseline retained.
+- Exact historical provenance/approval identity of all Del Val and Nifty Fifty’s files; matching gallery counts do not alone prove approval.
+- Browser visual QA at desktop/mobile/print sizes; deployed email-app behavior and actual message sending.
+- Existing deployed Team duplicate/cache state. Package fixes the destination but has not been uploaded.
 
-## Image handling
-- Brochure case-study images are treated as corporate-approved imagery because they are already present in GMT's current marketing brochure.
-- Many Drive project folders use HEIC/HEIF. Convert those to WebP/JPEG before future website use.
-- Faropoint's `3 Pearl before/during/After` folder is an excellent future before/after-slider candidate.
-- 2301 Cherry contains a deep photo archive but is HEIC-heavy.
-
-## V4.5 public-content refinement
-- Public-facing audit/verification language removed from homepage and Projects page; verification remains an internal editorial standard.
-- Team hierarchy split into Ownership & Leadership and Project Management & Operations.
-- Mary Buchnik bio narrowed to payroll administration and financial support.
-- Daniel Buchnik and Moshe Buchnik bios refined to their documented operational roles.
-- Contact hierarchy separates office/new projects/estimating from direct leadership contacts.
-- Structural self-perform language narrowed to avoid over-specific public claims.
-- Named project photography remains restricted to exact project-source imagery.
-
-## V4.5 cross-source reconciliation — 2026-09-08
-
-Public selected past experience was tightened after cross-checking the current website exports, 2026 corporate brochure, connected Gmail history, and project records. The public list now favors entries with stronger independent execution evidence and corrects Eddie V's to Cherry Hill, NJ. Cloud Kitchens, Aldi, Steak 48, Spread Bagelry, BluePearl, and current unawarded D-BAT pursuits are not presented in the selected-past-experience grid in this release pending stronger project-level corroboration for public use.
-
-Confirmed historic examples retained in the public selected experience grid include Brooklyn Bowl (Philadelphia), Northern Grill / Terra Grill (Philadelphia), Eddie V's (Cherry Hill), Nifty Fifty (Abington), Del Val Food Ingredients (Moorestown), and Faropoint multi-location property experience.
-
-Print/export QA was also added so sticky navigation, reveal animations, viewport-height heroes, and interactive controls do not create overlapping or blank browser-print pages.
+This is a correction package for the existing GitHub-hosted site, not a new hosting deployment.

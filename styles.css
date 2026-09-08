@@ -107,3 +107,20 @@
 
 /* V4.7 approved-photo galleries */
 .case-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}.case-gallery img{width:100%;height:300px;object-fit:contain;background:#eef2f6;display:block}.case-gallery .wide{grid-column:span 2}.case-gallery .wide img{height:420px}.project-card img.approved-photo{object-fit:cover}.gallery-note{color:var(--muted);font-size:.78rem;margin-top:14px}@media(max-width:800px){.case-gallery{grid-template-columns:1fr 1fr}.case-gallery .wide{grid-column:span 2}}@media(max-width:540px){.case-gallery{grid-template-columns:1fr}.case-gallery .wide{grid-column:span 1}.case-gallery img,.case-gallery .wide img{height:auto}}
+
+/* V4.7.3: full photographs, clear card copy, and accessible navigation. */
+.skip-link{position:fixed;top:-100px;left:16px;z-index:1000;padding:12px;background:#fff;color:#07192f}.skip-link:focus{top:12px}
+:focus-visible{outline:3px solid #1682bf;outline-offset:4px} [id]{scroll-margin-top:120px}
+.leadership-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.project-card,.project-card.feature,.project-card.tall,.project-card.third{grid-column:auto;min-height:0!important;display:flex;flex-direction:column}
+.project-card img,.project-card img.approved-photo{position:static;width:100%;height:340px;object-fit:contain;background:#07192f;transform:none!important}
+.project-card:after,.project-card:before{display:none}.project-copy{position:static;padding:25px;flex:1}.project-copy h3{font-size:1.6rem}.project-copy p{font-size:1rem}.project-badge{right:auto;bottom:auto}
+.case-gallery figure{margin:0}.case-gallery figcaption{font-size:.9rem;padding:10px 0;color:var(--muted)}
+.contact-route a,.direct-card a,.team-contact a{overflow-wrap:anywhere}
+.hero,.page-hero.photo,.photo-main,.safety-photo{background-image:none;background-color:#07192f}
+@media(max-width:1020px){.nav-links{top:100%}}
+@media(max-width:640px){.project-grid,.leadership-grid{grid-template-columns:1fr}.project-card img{height:280px}.project-copy{padding:22px}.form label{font-size:.875rem}}
+@media print{.project-card.feature,.project-card.tall,.project-card.third{grid-column:auto!important}.project-copy{position:static!important}.project-card img{height:230px}}
+.hero,.page-hero.photo{background-image:linear-gradient(90deg,rgba(3,12,23,.92),rgba(3,12,23,.45)),url('assets/projects/hamilton/20260908_081912.jpg');background-size:100% 100%,contain;background-position:center;background-repeat:no-repeat}
+.photo-main,.safety-photo{background-image:url('assets/projects/center-square/20260512_100836.jpg');background-size:contain;background-position:center;background-repeat:no-repeat}

@@ -52,3 +52,10 @@ V4.5: Content & Hierarchy Refinement. Upload the contents of this folder to the 
 - Public experience list reduced where project-level corroboration was not strong enough for this release.
 - About-page typography rebalanced.
 - Print/PDF-specific CSS added to prevent sticky-header overlap, hidden reveal content, oversized viewport sections, and excess blank pages.
+
+
+## V4.7.2
+- Restores D-BAT Windsor Mill as a dedicated project case study.
+- Adds the four approved Windsor Mill photos: pro shop, finished hallway, batting-cage corridor, and wide facility view.
+- Adds D-BAT Windsor Mill to Projects and Featured Work.
+- Keeps Matt Provo listed as Director of D-BAT Development & Operations.

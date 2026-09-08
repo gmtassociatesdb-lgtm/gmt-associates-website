@@ -1,31 +1,18 @@
-# GMT Associates Website — Final GitHub Starter
+# GMT Associates Website V2
 
-Static multi-page website for GMT Associates, Inc.
+Source-driven website revision prepared from GMT's accessible corporate materials, project folders, active project correspondence, and approved brochure photography.
 
-## Included
-- `index.html`
-- `about.html`
-- `services.html`
-- `projects.html`
-- `team.html`
-- `contact.html`
-- `styles.css`
-- `script.js`
-- `assets/gmt-logo.png` — supplied GMT Associates logo
+## Upload to GitHub
+Replace the existing repository files with the contents of this folder. Keep the same GitHub Pages deployment (`main` / root).
 
-## Important before public launch
-1. Replace all photo placeholders with approved GMT project photography.
-2. Add approved project names/case studies only.
-3. Confirm public phone, email, office address, licenses, and service territory.
-4. Approve individual team bios/headshots before publishing them.
-5. Connect the project inquiry form to your chosen email/form backend.
-6. Add favicon, social preview image, privacy notice, and analytics if desired.
+## Before connecting gmtassociates.com
+1. Confirm public phone, email, and address.
+2. Create `@gmtassociates.com` email accounts and update contact links.
+3. Review named project/client references and remove any relationship that should not be public.
+4. Consider obtaining explicit permission before publishing client logos. This package uses text only.
+5. Add analytics/privacy notice if desired.
 
-## GitHub upload
-Upload the *contents* of this folder into the root of the `gmt-associates-website` repository.
-
-## GitHub Pages
-For GitHub Pages, public repositories are the simplest option. If you keep the repository private, Pages availability depends on your GitHub plan. You can also deploy the repository through another host such as Vercel or Cloudflare Pages while keeping the repository private.
-
-## Domain
-Do not modify GoDaddy DNS until the preview build is approved. When ready, connect `gmtassociates.com` and `www.gmtassociates.com` to the chosen deployment. Avoid changing MX records used for company email.
+## Photo notes
+- Warehouse, office, D-BAT, and hospitality imagery came from GMT's 2026 corporate brochure.
+- Hamilton field image came from the current Hamilton Phase II project photo folder shared in GMT/Wilkinson correspondence.
+- All website photos were converted/optimized to WebP.

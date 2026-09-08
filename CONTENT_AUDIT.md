@@ -1,0 +1,31 @@
+# GMT Website Content Audit
+
+## Source-backed for public-facing draft
+- GMT operates as a General Contractor and self-perform trade contractor.
+- Self-perform capabilities: demolition, carpentry, concrete, structural work.
+- Documented project experience includes Brooklyn Bowl, Cloud Kitchens, Aldi, D-BAT, Faropoint Properties, Eddie V's, Steak 48, Spread Bagel, Ciocca, BluePearl Veterinary Hospital, Del Val Food Ingredients, Amada, GY Properties, Nifty Fifty, and an Allendale warehouse project.
+- Active current relationship/project correspondence exists with M. Wilkinson Construction (Hamilton Phase II).
+- Current LOTT correspondence documents estimating/bid relationships; do not imply every LOTT opportunity was awarded.
+- Current Faropoint folders and VendorCafe correspondence document a substantial multi-location business relationship.
+- Current Drive includes licenses, insurance, COIs, project contracts, drawings, and field-photo archives.
+
+## Use cautiously / verify before final public launch
+- "Over four decades of expertise" appears in the corporate brochure; confirm whether this is collective team experience or company history before turning it into a company-age claim.
+- Dollar values in the brochure were intentionally omitted from this website draft; publish only if GMT wants them public and the client permits it.
+- Do not label Turner Construction as a client based only on the brochure's "Why GMT for Turner" marketing pitch.
+- New Age Development Group is listed as a trusted partner and has historic bid correspondence; do not invent completed-project claims.
+- Exact public office city is inconsistent across sources (Feasterville vs Trevose). V2 uses the more recent email-signature form: Trevose, PA 19053.
+- Current corporate brochure uses 215-687-3771 and gmtdemo2@gmail.com. Replace with domain email once created.
+
+## Never publish from reviewed sources
+- P&L, balance sheets, internal budgets, margins, expenses, SBA/bank materials, bank limits, payment discussions.
+- Legal settlement/dispute correspondence.
+- Internal-only owner/lender packets or confidential client budgets.
+- Subcontractor pricing and vendor commercial terms.
+- Insurance policy limits unless intentionally approved for public use.
+
+## Image handling
+- Brochure case-study images are treated as corporate-approved imagery because they are already present in GMT's current marketing brochure.
+- Many Drive project folders use HEIC/HEIF. Convert those to WebP/JPEG before future website use.
+- Faropoint's `3 Pearl before/during/After` folder is an excellent future before/after-slider candidate.
+- 2301 Cherry contains a deep photo archive but is HEIC-heavy.

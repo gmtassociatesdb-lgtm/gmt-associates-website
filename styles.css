@@ -148,3 +148,7 @@
 @media(max-width:640px){.section{padding:56px 0}.hero-content{padding-top:48px}.hero-foot{margin-top:30px}.contact-hero h1{font-size:clamp(2.5rem,11vw,3.4rem)}.contact-hero .hero-actions{gap:12px}.contact-hero .btn{width:100%;padding:12px}.inquiry-actions{flex-direction:column}.inquiry-actions .btn{width:100%;padding:12px}.form-help{padding:16px}.case-hero h1{font-size:clamp(2.5rem,11vw,4rem)}.case-hero{min-height:0}.case-hero-inner{padding:48px 0}.next-steps{margin:24px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}
 @media print{.hero-region{color:inherit}.inquiry-actions{display:none}}
+
+/* Approved 6000 Irwin Road homepage photographs, shown in full. */
+.hero.hero-slideshow{background-image:url('irwin-interior-09.jpg');background-position:center;background-size:contain;background-repeat:no-repeat}
+.hero.hero-slideshow:before{background:linear-gradient(90deg,rgba(3,12,23,.82),rgba(3,12,23,.25))}

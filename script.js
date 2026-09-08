@@ -76,3 +76,27 @@ if (form) {
 }
 const revealObserver=('IntersectionObserver' in window)?new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in-view');revealObserver.unobserve(entry.target)}})},{threshold:.12}):null;
 document.querySelectorAll('.reveal').forEach(el=>{if(revealObserver)revealObserver.observe(el);else el.classList.add('in-view')});
+
+// Rotate the approved Irwin photographs every five seconds after loading.
+const slideshow = document.querySelector('.hero-slideshow');
+if (slideshow) {
+ const photos = ['irwin-interior-09.jpg', 'irwin-interior-24.jpg', 'irwin-aerial-0022.jpg'];
+ const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+ let slide = 0, rotation = null, ready = false;
+ function scheduleRotation() {
+  clearInterval(rotation);
+  if (!ready || motion.matches || document.hidden) return;
+  rotation = setInterval(() => {
+   slide = (slide + 1) % photos.length;
+   slideshow.style.backgroundImage = 'url("' + photos[slide] + '")';
+  }, 5000);
+ }
+ Promise.all(photos.map(src => new Promise(resolve => {
+  const image = new Image();
+  image.onload = () => resolve(true);
+  image.onerror = () => resolve(false);
+  image.src = src;
+ }))).then(loaded => { ready = loaded.every(Boolean); scheduleRotation(); });
+ document.addEventListener('visibilitychange', scheduleRotation);
+ motion.addEventListener('change', scheduleRotation);
+}

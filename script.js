@@ -9,7 +9,7 @@ document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',(
 const y=document.querySelector('[data-year]');if(y)y.textContent=new Date().getFullYear();
 const form=document.querySelector('#project-form');if(form){form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);const body=[
  'Name: '+(d.get('name')||''),'Company: '+(d.get('company')||''),'Email: '+(d.get('email')||''),'Phone: '+(d.get('phone')||''),'Project Location: '+(d.get('location')||''),'Project Type: '+(d.get('type')||''),'Target Start: '+(d.get('start')||''),'','Project Details:',d.get('message')||''
- ].join('\n');window.location.href='mailto:gmtdemo2@gmail.com?subject='+encodeURIComponent('GMT Website Project Inquiry')+'&body='+encodeURIComponent(body);});}
+ ].join('\n');window.location.href='mailto:gmtdevelops@gmail.com?subject='+encodeURIComponent('GMT Website Project Inquiry')+'&body='+encodeURIComponent(body);});}
 
 // V4 subtle scroll-reveal motion. Content remains fully usable without JS.
 const revealObserver=('IntersectionObserver' in window)?new IntersectionObserver(entries=>{

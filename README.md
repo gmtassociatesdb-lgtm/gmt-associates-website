@@ -27,3 +27,14 @@ Keep the GitHub Pages preview in place until desktop and mobile QA is complete. 
 - Removed Mike Milluzzo from the team.
 - Added Project Managers Dexter Smith and Ashley Morris.
 - Expanded the asset library with additional connected GMT field photography and reduced repeated image usage.
+
+
+## V4.2 verified-content correction
+- Primary company phone changed to GMT office: 267-410-0177.
+- Daniel Buchnik direct: 267-883-1117 / gmtassociates.db@gmail.com.
+- Moshe Buchnik direct: 917-532-9174.
+- New-project/development inquiries route to gmtdevelops@gmail.com.
+- Estimating/demolition inbox retained as gmtdemo2@gmail.com.
+- Bid-only project cards/case studies removed from the public portfolio.
+- Named project photography restricted to project-specific verified sources.
+- Relationship section expanded and classified by relationship type.
